@@ -30,7 +30,7 @@ jobs:
        - name: Install terraform version from workflow call inputs is ${{ inputs.tf-version }}
          uses: hashicorp/setup-terraform@v3
          with:
-            terraform_version: ${{ inputs.tf-version }}
+            terraform_version: ${{inputs.tf-version}}
 
        - name: check terraform version
          run: |
