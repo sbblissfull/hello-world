@@ -13,7 +13,7 @@ jobs:
 
       - name: check terrform version
         run: |
-           - terraform -version
-           - pwd
+           terraform -version
+           pwd
         
         
