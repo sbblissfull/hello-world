@@ -1,5 +1,12 @@
 name: Install Terraform
-on: [workflow_dispatch]
+on: 
+   workflow_dispatch:
+   workflow_call:
+      inputs:
+         tf-version:
+            type: string
+            required: false
+            default: "1.1.7"
 
 jobs:
   install-terraform:
@@ -16,5 +23,19 @@ jobs:
            terraform -version
            echo pwd
            pwd
-        
+
+  install-terraform2:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Install terraform version from workflow call inputs is ${{ inputs.tf-version }}
+         uses: hashicorp/setup-terraform@v3
+         with:
+            terraform_version: ${{ inputs.tf-version }}
+
+       - name: check terraform version
+         run: |
+            echo "pwd"
+            pwd
+            echo "terraform version is"
+            terraform -version
         
