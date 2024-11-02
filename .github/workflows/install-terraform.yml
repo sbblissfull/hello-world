@@ -5,8 +5,8 @@ on:
       inputs:
          tf-version:
             type: string
-            required: false
-            default: "1.1.7"
+            required: true
+        #    default: "1.1.7"
 
 jobs:
   install-terraform:
