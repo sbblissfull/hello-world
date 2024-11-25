@@ -6,7 +6,7 @@ locals {
 object_ids = {
     # i guess these will be used when RBAC user is used to to access keyvault but i used service principal to get keyvault id
     #"dev1"        = "92e2af1d-efff-486d-8ff3-07febb4ce82f" # "AZ KEY VAULT OPS"
-    #"shanker.bonaili_gmail.com#EXT#@shankerbonailigmail.onmicrosoft.com" = "67287ec6-c225-4298-9318-93ca5725da10" # AZ KEY VAULT OPS
+   
     
   }
 }
