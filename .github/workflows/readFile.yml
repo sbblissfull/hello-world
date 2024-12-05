@@ -7,10 +7,13 @@ jobs:
   Read-File:
      runs-on: ubuntu-latest 
      steps:
+     - name: checkout
+       uses: actions/checkout@v2
+       
      - name: read file
      #  shell: pwsh
      #  working-directory: dev
        run: |
           echo pwd
-          ./dev/cat resource-group.tf
+         # ./dev/cat resource-group.tf
   
