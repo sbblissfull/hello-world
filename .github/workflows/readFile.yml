@@ -11,5 +11,6 @@ jobs:
        shell: pwsh
        working-directory: dev
        run: |
-          ./cat resource-group.tf
+          pwd
+          cat resource-group.tf
   
