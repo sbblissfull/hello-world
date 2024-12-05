@@ -33,5 +33,13 @@ jobs:
          pwd
          ls -al
          cat resource-groups.tf
+
+     - name: read file4
+       shell: pwsh
+       working-directory: dev
+       run: |
+         pwd
+         ls -al
+         cat resource-groups.tf
       
   
