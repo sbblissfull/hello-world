@@ -22,7 +22,7 @@ jobs:
       #    cat ./dev/resource-group.tf
 
      - name: read file2
-       working-directory: dec
+       working-directory: dev
        run: |
          pwd
          ls -al
