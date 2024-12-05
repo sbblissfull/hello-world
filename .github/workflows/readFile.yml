@@ -12,13 +12,13 @@ jobs:
        
      - name: read file
      #  shell: pwsh
-     #  working-directory: dev
+       working-directory: dev
        run: |
           echo pwd
           pwd
           ls
           ls -al
-       #   cat readFile.yml
+          cat readFile.yml
       #    cat ./dev/resource-group.tf
 
      - name: read file2
