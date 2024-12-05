@@ -12,7 +12,7 @@ jobs:
        
      - name: read file
      #  shell: pwsh
-       working-directory: dev
+     #  working-directory: dev
        run: |
           echo pwd
           pwd
