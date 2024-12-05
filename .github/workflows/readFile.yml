@@ -20,4 +20,11 @@ jobs:
           ls -al
        #   cat readFile.yml
       #    cat ./dev/resource-group.tf
+
+     - name: read file2
+       working-directory: dec
+       run: |
+         pwd
+         ls -al
+      
   
