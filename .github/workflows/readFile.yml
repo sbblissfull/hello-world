@@ -8,7 +8,7 @@ jobs:
      runs-on: ubuntu-latest 
      steps:
      - name: read file
-       shell: pwsh
+     #  shell: pwsh
      #  working-directory: dev
        run: |
           echo pwd
