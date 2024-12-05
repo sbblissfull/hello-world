@@ -9,8 +9,8 @@ jobs:
      steps:
      - name: read file
        shell: pwsh
-       working-directory: dev
+     #  working-directory: dev
        run: |
-          pwd
-          cat resource-group.tf
+          echo pwd
+          ./dev/cat resource-group.tf
   
