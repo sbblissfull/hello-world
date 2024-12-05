@@ -18,7 +18,7 @@ jobs:
           pwd
           ls
           ls -al
-          cat readFile.yml
+      #    cat readFile.yml
       #    cat ./dev/resource-group.tf
 
      - name: read file2
