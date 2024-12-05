@@ -17,6 +17,7 @@ jobs:
           echo pwd
           pwd
           ls
+          ls -al
        #   cat readFile.yml
       #    cat ./dev/resource-group.tf
   
