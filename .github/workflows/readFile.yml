@@ -16,6 +16,7 @@ jobs:
        run: |
           echo pwd
           pwd
-          cat readFile.yml
+          ls
+       #   cat readFile.yml
       #    cat ./dev/resource-group.tf
   
