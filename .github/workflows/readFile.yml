@@ -15,5 +15,6 @@ jobs:
      #  working-directory: dev
        run: |
           echo pwd
-         # ./dev/cat resource-group.tf
+          pwd
+          ./dev/cat resource-group.tf
   
