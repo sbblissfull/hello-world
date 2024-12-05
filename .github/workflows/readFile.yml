@@ -16,5 +16,5 @@ jobs:
        run: |
           echo pwd
           pwd
-          cat /dev/resource-group.tf
+          cat ./dev/resource-group.tf
   
