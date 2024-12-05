@@ -1,0 +1,15 @@
+name: read file from directory
+on: 
+   workflow_dispatch:
+   
+
+jobs:
+  Read-File:
+     runs-on: ubuntu-latest 
+     steps:
+     - name: read file
+       shell: pwsh
+       working-directory: dev
+       run: |
+          ./cat resource-group.tf
+  
